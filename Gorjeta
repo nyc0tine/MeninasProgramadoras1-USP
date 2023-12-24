@@ -1,0 +1,4 @@
+número = float(input())
+gorjeta = número / 100 * int(input())
+valor = número + gorjeta
+print("%.2f" % valor)
