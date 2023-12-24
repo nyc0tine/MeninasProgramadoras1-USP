@@ -1,0 +1,16 @@
+palavra = input()
+soletrado = []
+letras = []
+for item in palavra:
+    letras.append(item)
+
+letra = input()
+while letra != '.':
+    soletrado.append(letra)
+    letra = input()
+    
+if letras == soletrado:
+    print('True')
+else:
+    print('False')
+    
