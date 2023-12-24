@@ -1,0 +1,16 @@
+i1 = int(input())
+i2 = int(input())
+i3 = int(input())
+i4 = int(input())
+
+maior_numero = i1
+
+if i2 > maior_numero:
+    maior_numero = i2
+
+if i3 > maior_numero:
+    maior_numero = i3
+
+if i4 > maior_numero:
+    maior_numero = i4
+print("A mais velha tem", maior_numero, "anos")
