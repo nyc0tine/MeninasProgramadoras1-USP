@@ -1,0 +1,10 @@
+quant = int(input())
+
+pattern = '*'
+
+if 1 < quant < 10:
+    for item in range(quant-1):
+        pattern = pattern + '*'
+    print(pattern)
+else:
+    print(pattern)
