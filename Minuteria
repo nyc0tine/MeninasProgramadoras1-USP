@@ -1,0 +1,4 @@
+horas = int(input())
+minutos = int(input())
+total_de_minutos = horas * 60 + minutos
+print(total_de_minutos)
