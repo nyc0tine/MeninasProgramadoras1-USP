@@ -1,0 +1,11 @@
+respostas = []
+aceitas = 0
+
+estado = input()
+while estado != 'timeout':
+    respostas.append(estado)
+    if estado == 'accepted':
+        aceitas += 1
+    estado = input()
+
+print(aceitas)
