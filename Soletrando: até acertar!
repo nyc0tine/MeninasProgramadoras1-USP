@@ -1,0 +1,15 @@
+palavra = input()
+
+while True:
+    tentativa = ''
+    
+    while True:
+        letra = input()
+        if letra == '.':
+            break
+        tentativa += letra
+    if tentativa == palavra:
+        print('8-)')
+        break
+    else:
+        print('8-|')
