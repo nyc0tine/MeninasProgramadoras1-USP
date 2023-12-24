@@ -1,0 +1,14 @@
+primeira = input()
+segunda = input()
+if primeira == 'V':
+    if segunda == 'V':
+        print('VV')
+    else:
+        print('?')
+elif primeira == 'F':
+    if segunda == 'F':
+        print('FF')
+    else:
+        print('?')
+else:
+    print('?')
