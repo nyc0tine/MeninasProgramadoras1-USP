@@ -1,0 +1,17 @@
+tentativa = input()
+tentativas = 1
+
+if tentativa == 'accepted':
+    tentativas = 1
+
+while tentativa != 'accepted':
+    tentativas = tentativas + 1
+    lista = []
+    lista.append(tentativas)
+    tentativa = input()
+    soma = 0
+    for item in lista:
+        soma = soma + item
+        tentativas = soma
+    
+print(tentativas)
