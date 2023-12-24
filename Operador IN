@@ -1,0 +1,6 @@
+letra = input()
+sequencia = input()
+if letra in sequencia:
+    print(letra, "in", sequencia)
+else:
+    print(letra, "not in", sequencia)
