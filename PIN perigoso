@@ -1,0 +1,4 @@
+PIN_1 = int(input())
+PIN_2 = int(input())
+PIN = PIN_1 + PIN_2
+print(PIN)
