@@ -1,0 +1,11 @@
+num_algarismos = int(input())
+pin = []
+
+for i in range(num_algarismos):
+    algarismo = input()
+    if algarismo in pin:
+        print("ERRO")
+        break
+    pin.append(algarismo)
+else:
+    print("OK")
