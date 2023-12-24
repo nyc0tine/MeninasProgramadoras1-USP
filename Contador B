@@ -1,0 +1,7 @@
+A = int(input())
+num = 1
+
+print(num)
+while (A > num):
+    num = num+1
+    print(num)
