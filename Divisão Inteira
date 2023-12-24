@@ -1,0 +1,6 @@
+dividendo = int(input())
+divisor = int(input())
+resultado = dividendo // divisor
+resto = dividendo % divisor
+print(resultado)
+print(resto)
