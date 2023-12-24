@@ -1,0 +1,3 @@
+placa = int(input())
+ultimo = placa % 10
+print(ultimo)
