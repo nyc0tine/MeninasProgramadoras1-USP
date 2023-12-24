@@ -1,0 +1,7 @@
+pix = int(input())
+compra = int(input())
+saldo = pix - compra
+if saldo >= 0:
+    print('pode comprar tudo')
+else:
+    print('saldo insuficiente')
