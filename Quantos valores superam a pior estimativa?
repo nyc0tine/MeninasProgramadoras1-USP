@@ -1,0 +1,10 @@
+pior_estimativa = float(input())
+num_valores = int(input())
+ocorrencias_superiores = 0
+
+for item in range(num_valores):
+    taxa = float(input())
+    if taxa > pior_estimativa:
+        ocorrencias_superiores += 1
+
+print(ocorrencias_superiores)
