@@ -1,0 +1,6 @@
+x = int(input()) * 240
+cs = int(input()) * 15
+cc = int(input()) * 5
+print(x, "ml")
+print(cs, "ml")
+print(cc, "ml")
