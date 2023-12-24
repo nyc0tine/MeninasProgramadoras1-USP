@@ -1,0 +1,11 @@
+linha1 = input()
+linha2 = input()
+
+nova_linha = ''
+for charactere in linha1:
+    if charactere in linha2:
+        nova_linha += '*'
+    else:
+        nova_linha += charactere
+
+print(nova_linha)
