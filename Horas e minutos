@@ -1,0 +1,5 @@
+tempo = int(input())
+horas = tempo // 60
+minutos = tempo % 60
+
+print("{}min = {}h{}min".format(tempo, horas, minutos))
