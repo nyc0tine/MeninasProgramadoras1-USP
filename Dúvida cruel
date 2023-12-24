@@ -1,0 +1,9 @@
+num_anterior = int(input())
+num_atual = int(input())
+
+if num_anterior == num_atual:
+    print('igual')
+elif num_anterior < num_atual:
+    print('aumentou')
+else:
+    print('diminuiu')
