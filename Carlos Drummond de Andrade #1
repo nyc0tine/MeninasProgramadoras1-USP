@@ -1,0 +1,6 @@
+linha = input()
+while linha != 'CDA':
+    print(linha)
+    linha = input()
+
+print('CDA 1942')
