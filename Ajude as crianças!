@@ -1,0 +1,19 @@
+valor_minimo = int(input())
+valores = []
+total = 0
+
+while True:
+    entrada = int(input())
+    valores.append(entrada)
+    total += entrada
+
+    if total >= valor_minimo:
+        minimo = valor_minimo
+        for valor in valores:
+            if valor < minimo and valor >= valor_minimo:
+                minimo = valor
+        sobra = total - valor_minimo
+        print("minimo", minimo)
+        print("total", total)
+        print("sobra", sobra)
+        break
