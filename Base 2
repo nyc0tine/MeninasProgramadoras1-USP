@@ -1,0 +1,14 @@
+base = 3
+resultados = []
+
+while base >= 0:
+    valor = int(input())
+    num = (2 ** base)
+    res = valor * num
+    resultados.append(res)
+    base = base - 1
+
+soma = 0
+for item in resultados:
+    soma = soma + item
+print(soma)
