@@ -1,0 +1,6 @@
+número = float(input())
+print("%.2f" % número)
+print("%.4f" % número)
+print("%.6f" % número)
+print("%.8f" % número)
+print("%.10f" % número)
