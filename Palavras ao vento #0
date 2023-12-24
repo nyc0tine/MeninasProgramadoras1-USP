@@ -1,0 +1,11 @@
+palavra = input()
+
+while palavra != ".":
+    linha1 = input()
+    
+    if palavra in linha1:
+        print('Y')
+    else:
+        print('N')
+    
+    palavra = input()
