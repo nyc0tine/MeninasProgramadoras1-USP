@@ -1,0 +1,19 @@
+massa = float(input())
+aceleracao_inicial = float(input())
+aceleracao_atual = aceleracao_inicial
+aceleracao_maxima = aceleracao_inicial
+numero_voltas = 0
+
+while True:
+    forca = float(input())
+    numero_voltas += 1
+    
+    if forca < 0:
+        break
+    aceleracao_atual = forca / massa
+    
+    if aceleracao_atual > aceleracao_maxima:
+        aceleracao_maxima = aceleracao_atual
+
+print("maior aceleração: %.3f" % aceleracao_maxima)
+print("número de voltas: ", numero_voltas)
