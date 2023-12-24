@@ -1,0 +1,8 @@
+mf = int(input())
+final = 0
+
+for number in range(mf):
+    valor = float(input())
+    final = valor + final
+
+print('%.2f' % final)
