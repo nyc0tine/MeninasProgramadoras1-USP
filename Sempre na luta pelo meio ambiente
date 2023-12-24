@@ -1,0 +1,17 @@
+observacoes = []
+pior_estimativa = float(input())
+contador_observacoes = 0
+contador_inferiores = 0
+
+while True:
+    valor = float(input())
+    if valor < 0:
+        break
+    observacoes.append(valor)
+    contador_observacoes += 1
+
+for valor in observacoes:
+    if valor < pior_estimativa:
+        contador_inferiores += 1
+
+print(contador_observacoes, contador_inferiores)
