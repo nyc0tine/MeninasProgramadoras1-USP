@@ -1,0 +1,12 @@
+placa = int(input())
+u = placa % 10
+if u == 1 or u == 2:
+    print('segunda-feira')
+elif u == 3 or u == 4:
+    print('terça-feira')
+elif u == 5 or u == 6:
+    print('quarta-feira')
+elif u == 7 or u == 8:
+    print('quinta-feira')
+elif u == 9 or u == 0:
+    print('sexta-feira')
