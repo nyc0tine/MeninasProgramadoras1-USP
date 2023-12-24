@@ -1,0 +1,7 @@
+num_anterior = int(input())
+num_atual = int(input())
+
+aumento = (num_atual - num_anterior)
+porcentagem = (aumento / num_anterior) * 100
+
+print('%.2f' % porcentagem)
