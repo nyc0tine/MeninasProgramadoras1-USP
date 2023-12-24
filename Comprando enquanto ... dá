@@ -1,0 +1,21 @@
+valor = float(input())
+valor_inicial = valor
+
+gastos = []
+itens = 0
+
+while 0 <= valor:
+    gasto = float(input())
+    if gasto <= valor:
+        valor = valor - gasto
+        gastos.append(gasto)
+        itens = itens + 1
+    else:
+        break
+
+print('Número de itens', itens)
+
+compras = 0
+for item in gastos:
+    compras = compras + item
+print('Saldo:', '%.2f' % (valor_inicial - compras))
