@@ -1,0 +1,8 @@
+c_parada = input()
+entrada = ''
+linhas = 0
+
+while entrada != c_parada:
+    linhas = linhas + 1
+    entrada = input()
+print(linhas - 1)
