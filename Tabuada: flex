@@ -1,0 +1,12 @@
+tab = int(input())
+pv = int(input())
+uv = int(input())
+
+C1 = 0 < tab < 100
+C2 = 0 < pv < 1000
+C3 = 0 < uv < 1000
+
+if (C1 == True) and (C2 == True) and (C3 == True):
+    print('Tabuada do', tab, 'de', pv,'até', uv)
+    for count in range(pv, uv+1):
+        print(tab, 'x', count, '=', tab*(count))
