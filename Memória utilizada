@@ -1,0 +1,14 @@
+memoria_utilizada = 0
+max_memoria_utilizada = 0
+
+while True:
+    entrada = int(input())
+
+    if entrada == 0:
+        break
+
+    memoria_utilizada += entrada
+    if memoria_utilizada > max_memoria_utilizada:
+        max_memoria_utilizada = memoria_utilizada
+
+print(max_memoria_utilizada)
