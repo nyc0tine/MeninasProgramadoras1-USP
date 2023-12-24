@@ -1,0 +1,16 @@
+numero_vagas = int(input())
+nomes_alunas = []
+
+nome_aluna = input()
+while nome_aluna != '.':
+    nomes_alunas.append(nome_aluna)
+    nome_aluna = input()
+
+vagas = numero_vagas
+for nome in nomes_alunas:
+    vagas -= 1
+
+if vagas >= 0:
+    print("vagas sobrando:", vagas)
+else:
+    print("vagas faltando:", -vagas)
