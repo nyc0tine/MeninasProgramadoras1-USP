@@ -1,0 +1,8 @@
+num = int(input())
+
+base = 0
+print(base)
+while base < num-1:
+    par = base + 2
+    base = par
+    print(par)
