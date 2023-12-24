@@ -1,0 +1,3 @@
+palavranova = input()
+print(palavranova)
+print(palavranova)
