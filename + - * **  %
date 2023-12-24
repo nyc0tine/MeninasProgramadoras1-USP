@@ -1,0 +1,17 @@
+oper = input()
+valor1 = int(input())
+valor2 = int(input())
+if oper == '+':
+    print(valor1 + valor2)
+elif oper == '-':
+    print(valor1 - valor2)
+elif oper == '*':
+    print(valor1 * valor2)
+elif oper == '/':
+    print(valor1 / valor2)
+elif oper == '//':
+    print(valor1 // valor2)
+elif oper == '%':
+    print(valor1 % valor2)
+elif oper == '**':
+    print(valor1 ** valor2)
