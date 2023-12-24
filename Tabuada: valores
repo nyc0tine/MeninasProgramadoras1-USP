@@ -1,0 +1,6 @@
+num = int(input())
+vezes = 1
+while vezes <= 11 and 0 < num <= 11:
+    resultado = num * vezes
+    print(resultado)
+    vezes = vezes+1
