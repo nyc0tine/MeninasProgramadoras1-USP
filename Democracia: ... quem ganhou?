@@ -1,0 +1,29 @@
+vx = 0
+vy = 0
+vb = 0
+vn = 0
+
+votos = int(input())
+for number in range(votos):
+    voto = input()
+    
+    if voto == 'X':
+        vx = vx + 1
+    elif voto == 'Y':
+        vy = vy + 1
+    elif voto == 'B':
+        vb = vb + 1
+    elif voto == 'N':
+        vn = vn + 1
+    
+print("X", vx)
+print("Y", vy)
+
+print("Brancos e nulos", vb + vn)
+
+if vx > vy:
+    print("vitoria: X")
+elif vy > vx:
+    print("vitoria: Y")
+else:
+    print("empate!")
