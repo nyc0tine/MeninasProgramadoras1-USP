@@ -1,0 +1,10 @@
+confirmar = 0
+contar = 0
+
+quant = int(input())
+for number in range(quant):
+    email = input()
+    if '@' in email:
+        contar = confirmar + 1
+        confirmar = contar
+print(quant - contar)
