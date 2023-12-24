@@ -1,0 +1,9 @@
+caractere = input()
+if caractere in "@#$%&*()_-+=!":
+    print("especial")
+elif caractere in "aeiou" or caractere in "AEIOU":
+    print("vogal")
+elif caractere in "1234567890":
+    print("algarismo")
+else:
+    print("outro")
