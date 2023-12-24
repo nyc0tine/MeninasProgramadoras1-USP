@@ -1,0 +1,4 @@
+animal = input()
+atrib = input()
+act = input()
+print("Um", animal, "tem", atrib, "e pode", act)
