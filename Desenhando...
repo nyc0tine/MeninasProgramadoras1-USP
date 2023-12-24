@@ -1,0 +1,6 @@
+quant = input()
+
+for digito in quant:
+    valor = int(digito)
+    linha = '*' * valor
+    print(linha)
