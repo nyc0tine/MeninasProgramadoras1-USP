@@ -1,0 +1,15 @@
+n = input()
+if n == 'I':
+    print(1)
+if n == 'V':
+    print(5)
+if n == 'X':
+    print(10)
+if n == 'L':
+    print(50)
+if n == 'C':
+    print(100)
+if n == 'D':
+    print(500)
+if n == 'M':
+    print(1000)
