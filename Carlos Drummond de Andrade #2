@@ -1,0 +1,9 @@
+contador = 0
+
+while True:
+    linha = input()
+    if linha == 'CDA 1942':
+        break
+    contador += 1
+
+print(contador)
