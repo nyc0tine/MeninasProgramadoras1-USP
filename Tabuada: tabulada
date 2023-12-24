@@ -1,0 +1,7 @@
+num = int(input())
+print('Tabuada do', num)
+vezes = 1
+while vezes <= 11:
+    resultado = num * vezes
+    print(num, 'x', vezes, '=', resultado)
+    vezes = vezes+1
