@@ -1,0 +1,11 @@
+quantas = int(input())
+for number in range(quantas):
+    nome = input()
+    m1 = int(input())
+    m2 = int(input())
+    m3 = int(input())
+    m4 = int(input())
+    if (m1 >= 120) and (m2 >= 120) and (m3 >= 120) and (m4 >= 120):
+        print(nome, 'tem monitorias OK! :-)')
+    else:
+        print(nome, 'não tem monitorias suficientes :-(')
