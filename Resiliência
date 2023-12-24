@@ -1,0 +1,14 @@
+exercicios = []
+tamanho = 0
+listas = int(input())
+
+while tamanho < listas:
+    quantidade = int(input())
+    exercicios.append(quantidade)
+    tamanho = tamanho + 1
+
+soma = 0
+for item in exercicios:
+    soma = soma + item
+
+print(soma)
