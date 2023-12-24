@@ -1,0 +1,14 @@
+cpf = input()
+algarismos = ""
+for caractere in cpf:
+    if caractere != "." and caractere != "-":
+        algarismos = algarismos + caractere
+tamanho = 0
+for _ in algarismos:
+    tamanho = tamanho + 1
+if tamanho == 11:
+    print(algarismos)
+    print('OK')
+else:
+    print(algarismos)
+    print('ERROR')
