@@ -1,0 +1,6 @@
+cpf = input()
+algarismos = ""
+for caractere in cpf:
+    if caractere != "." and caractere != "-":
+        algarismos = algarismos + caractere
+print(algarismos)
