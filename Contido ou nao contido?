@@ -1,0 +1,14 @@
+primeiro = input()
+segundo = input()
+terceiro = input()
+
+if primeiro in segundo:
+    if primeiro in terceiro:
+        print(primeiro, "CONTIDO EM", segundo, "E", primeiro, "CONTIDO EM", terceiro)
+    if primeiro not in terceiro:
+        print(primeiro, "CONTIDO EM", segundo, "MAS", primeiro, "NÃO CONTIDO EM", terceiro)
+elif primeiro not in segundo:
+    if primeiro in terceiro:
+        print(primeiro, "NÃO CONTIDO EM", segundo, "MAS", primeiro, "CONTIDO EM", terceiro)
+    if primeiro not in terceiro:
+        print(primeiro, "NÃO CONTIDO EM", segundo, "E", primeiro, "NÃO CONTIDO EM", terceiro)
