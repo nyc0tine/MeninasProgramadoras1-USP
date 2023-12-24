@@ -1,0 +1,15 @@
+parado = 1
+movimento = 0
+valor = input()
+
+while valor != 'f': 
+    if valor == 'p':
+        parado += 1
+    elif valor == 'm':
+        movimento += 1
+    valor = input()
+
+if parado >= movimento:
+    print('sedentário')
+elif movimento > parado:
+    print('ativo')
