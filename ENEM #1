@@ -1,0 +1,13 @@
+lin = float(input())
+hum = float(input())
+nat = float(input())
+mat = float(input())
+red = float(input())
+p1 = float(input())
+p2 = float(input())
+p3 = float(input())
+p4 = float(input())
+p5 = float(input())
+areas = lin * p1 + hum * p2 + nat * p3 + mat * p4 + red * p5
+pesos = p1 + p2 + p3 + p4 + p5
+print(areas / pesos)
