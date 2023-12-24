@@ -1,0 +1,3 @@
+PIX = int(input())
+compra = int(input())
+print(PIX - compra)
