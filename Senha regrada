@@ -1,0 +1,20 @@
+vogais = 'aeiou'
+digitos = '0123456789'
+
+senha = input()
+vogais_na_senha = 0
+digitos_na_senha = 0
+
+tamanho = len(senha)
+if tamanho >= 8:
+    for caractere in senha:
+        if caractere in vogais:
+            vogais_na_senha = vogais_na_senha + 1
+        if caractere in digitos:
+            digitos_na_senha = digitos_na_senha + 1
+    if (digitos_na_senha >= 2) and (vogais_na_senha > digitos_na_senha):
+        print('OK')
+    else:
+        print('ERRO')
+else:
+    print('ERRO')
