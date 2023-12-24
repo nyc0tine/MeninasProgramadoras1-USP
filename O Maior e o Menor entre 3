@@ -1,0 +1,22 @@
+numero1 = int(input())
+numero2 = int(input())
+numero3 = int(input())
+#esse é de pensar. o horário atual é 01:50AM, depois faço.
+if numero1 < numero2 < numero3:
+    print('maior:', numero3)
+    print('menor:', numero1)
+if numero2 < numero1 < numero3:
+    print('maior:', numero3)
+    print('menor:', numero2)
+if numero3 < numero2 < numero1:
+    print('maior:', numero1)
+    print('menor:', numero3)
+if numero1 < numero3 < numero2:
+    print('maior:', numero2)
+    print('menor:', numero1)
+if numero2 < numero3 < numero1:
+    print('maior:', numero1)
+    print('menor:', numero2)
+if numero3 < numero1 < numero2:
+    print('maior:', numero2)
+    print('menor:', numero3)
